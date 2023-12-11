@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+#heatmap {
+  margin: 20px auto;
+}
+
+.cell {
+  stroke: #fff;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #000;
+  pointer-events: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#legend {
+  margin: 20px auto;
+}
